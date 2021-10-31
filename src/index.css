@@ -1,0 +1,468 @@
+html {
+  width: 100%;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(0, 0, 0) !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.images {
+  width: 100% !important;
+  height: 94vh !important;
+}
+
+.navbar {
+  background-color: black !important;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.navbaractive {
+  background-color: rgb(44, 44, 44) !important;
+}
+
+.captiontitle h1 {
+  margin-top: -27rem !important;
+  font-weight: bolds;
+  padding-left: -2rem;
+  padding-right: -2rem;
+  align-items: flex-start; 
+  text-align: start;
+}
+.captionbody p{
+  text-align: start;
+  align-items: flex-start;
+  font-weight: 200;
+}
+
+/* .captionbody{
+  width: 30rem !important;F
+} */
+
+.signinforms {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.starterbtn {
+  /* width: 15.588rem; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  float: left; 
+  
+}
+
+.firstxx {
+  background-color: black;
+  height: auto;
+}
+.secondxx {
+  background-color: rgb(34, 34, 34) !important;
+  height: auto;
+}
+.leftdiv{
+  color: whitesmoke;
+  padding: auto;
+  padding-top: 3rem;
+
+}
+.leftdiv h1{
+  font-weight: bold;
+
+}
+.smallbody{
+  
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: rgb(22, 22, 22);
+  height: auto;
+  margin-top: 2rem;
+}
+.smallbody h3{
+  color: white;
+}
+.smallbody h3:hover{
+  color: #D81515;
+}
+.smallbody p{
+  font-size: 0.8rem;
+  color: white;
+}
+.whyus{
+  color: #D81515;
+  font-weight: bold;
+}
+.thirdxx{
+  padding-top: 9rem !important;
+  color:'white';
+}
+.imagemi{
+  display:none;
+}
+.rightdivtext{
+  color: white;
+}
+
+.cardbody{
+  margin-top: 2rem !important;
+}
+.fivexx{
+  margin-top: 6rem !important;
+}
+.custom-shape-divider-bottom-1635585424 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1635585424 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-bottom-1635585424 .shape-fill {
+  fill: #D81515;
+}
+.aboutfoot{
+  color:white ;
+  padding-left: auto;
+  padding-right: auto;
+  font-size:0.8rem;
+  width: 100%;
+}
+.listednavitem{
+  padding-left: 1rem !important;
+  font-size: 0.85rem;
+  padding-top: 2rem;
+}
+.loginbtn{
+  margin-left: auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+  html {
+    width: 100%;
+    overflow-y: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  body {
+    margin: 0;
+    background-color: rgb(0, 0, 0) !important;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  .captiontitle h1 {
+    margin-top: -20rem !important;
+    font-weight: bolder;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    text-align: center;
+  }
+  .captionbody p{
+    text-align: start;
+    align-items: flex-start;
+    font-weight: 200;
+  }
+  .captionbody {
+    width: 20rem !important;
+  }
+  .signinforms {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .starterbtn {
+    width: 30.288rem;
+    float: left;
+  }
+  .leftdiv{
+    color: whitesmoke;
+    padding: auto;
+    padding-top: 9rem;
+  
+  }
+  .leftdiv h1{
+    font-weight: bold;
+  
+  }
+  .smallbody{
+  
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(22, 22, 22);
+    height: auto;
+    margin-top: 2rem;
+  }
+.imagemi{
+  display:none;
+}
+.cardbody{
+  margin-top: 2rem !important;
+}
+.aboutfoot{
+  color:white ;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-size:0.8rem;
+  width: 100%;
+}
+ul .listednavitem{
+  padding-left: 5rem !important;
+}
+
+
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {
+  html {
+    width: 100%;
+    overflow-y: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  body {
+    margin: 0;
+    background-color: rgb(0, 0, 0) !important;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  .captiontitle h1 {
+    margin-top: -20rem !important;
+    font-weight: bolder;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    text-align: center;
+  }
+  .captionbody p{
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  .captionbody {
+    width: 20rem !important;
+    text-align: center;
+  }
+  .signinforms {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .starterbtn {
+    width: 30.288rem;
+    float: none;
+  }
+  .leftdiv{
+    color: whitesmoke;
+    padding: auto;
+    padding-top: 9rem;
+  
+  }
+  .leftdiv h1{
+    font-weight: bold;
+  
+  }
+  .smallbody{
+  
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(22, 22, 22);
+    height: auto;
+    margin-top: 2rem;
+  }
+  .imagemi{
+    display:grid;
+  }
+  .cardbody{
+    margin-top: auto !important;
+  }
+  .aboutfoot{
+    color:white ;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size:0.8rem;
+    width: 100%;
+  }
+  ul .listednavitem{
+    padding-left: auto !important;
+  }
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  html {
+    width: 100%;
+    overflow-y: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  body {
+    margin: 0;
+    background-color: rgb(0, 0, 0) !important;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  }
+  .captiontitle h1 {
+    margin-top: -20rem !important;
+    font-weight: bolder;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    text-align: center;
+  }
+  .captionbody p{
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  .captionbody {
+    width: 20rem !important;
+  }
+  .signinforms {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .starterbtn {
+    width: 30.288rem;
+    float: none;
+  }
+  .leftdiv{
+    color: whitesmoke;
+    padding: auto;
+    padding-top: 9rem;
+  
+  }
+  .leftdiv h1{
+    font-weight: bold;
+  
+  }
+  .smallbody{
+  
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(22, 22, 22);
+    height: auto;
+    margin-top: auto;
+  }
+  .imagemi{
+    display:grid;
+  }
+  .cardbody{
+    margin-top: auto !important;
+  }
+  .aboutfoot{
+    color:white ;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size:0.8rem;
+    width: 100%;
+  }
+  ul .listednavitem{
+    padding-left: auto !important;
+  }
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+      Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background-color: rgb(0, 0, 0);
+  }
+  .captiontitle h1 {
+    margin-top: -20rem !important;
+    font-weight: bolder;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+    text-align: center;
+  }
+  .captionbody p{
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  .captionbody {
+    width: 20rem !important;
+  }
+  .signinforms {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  .starterbtn {
+    float: none;
+    width: 30.288rem;
+  }
+  .leftdiv{
+    color: whitesmoke;
+    padding: auto;
+    padding-top: 9rem;
+  
+  }
+  .leftdiv h1{
+    font-weight: bold;
+  
+  }
+  .smallbody{
+  
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(22, 22, 22);
+    height: auto;
+    margin-top: auto;
+  }
+  .imagemi{
+    display:grid;
+  }
+  .cardbody{
+    margin-top: auto !important;
+  }
+  ul .listednavitem{
+    padding-left: auto !important;
+  }
+  .aboutfoot{
+    color:white ;
+    padding-left: auto;
+    padding-right: auto;
+    font-size:0.8rem;
+    width: 100%;
+  }
+  .loginbtn{
+    margin-left: 30rem;
+  }
+  
+}

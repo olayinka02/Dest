@@ -142,13 +142,13 @@ class Fourthbody extends Component {
                <Card.Body>
                 <Card.Title>City gate</Card.Title>
                <Card.Text style={{fontSize:0.8+'rem',}}>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus vestibulum lorem ut tempus.
+               Lorem ipsum dolor sit amet, coectetur adipiscing elit. Quisque luctus vestibulum lorem ut tempus.
                </Card.Text>
                 <Button variant="danger">watch video</Button>
                 </Card.Body>
                 </Card>
                 </div>
-           </Col>
+               </Col>
           </Row>
          </Container>
       </div>

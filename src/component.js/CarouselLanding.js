@@ -78,7 +78,7 @@ class CarouselLanding extends Component {
     <h1>Unlimited movie show,
           film streaming, shows and more
       </h1>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <p>Nulla vitae elit libero, a phretra augue mollis interdum.</p>
      
       <Form.Group className="signinforms" controlId="formGridEmail">
       <Form.Control type="email" placeholder="Enter email" />

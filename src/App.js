@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+ 
 
 import Navbarx from './component.js/Navbarx';
 import CarouselLanding from './component.js/CarouselLanding';
@@ -11,6 +12,7 @@ import Fivebody from './component.js/Fivebody';
 class App extends Component {
   render() {
     return (
+      
       <div>
         <Navbarx />
         <CarouselLanding/>
@@ -20,6 +22,7 @@ class App extends Component {
         <Fourthbody /><br/><br/><br/><br/><br/><br/>  
         <Fivebody />    
       </div>
+     
     );
   }
 }

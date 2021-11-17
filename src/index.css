@@ -33,17 +33,19 @@ body {
 }
 
 .captiontitle h1 {
-  margin-top: -27rem !important;
-  font-weight: bolds;
-  padding-left: -2rem;
-  padding-right: -2rem;
+  margin-top: -29rem !important;
+  font-weight: bold;
+  padding-left: -4rem;
+  padding-right: -4rem;
   align-items: flex-start; 
   text-align: start;
+  font-size: 2.5rem;
+  
 }
-.captionbody p{
+.captiontitle p{
   text-align: start;
   align-items: flex-start;
-  font-weight: 200;
+  font-weight: bolder;
 }
 
 /* .captionbody{
@@ -154,6 +156,32 @@ body {
 .loginbtn{
   margin-left: auto;
 }
+.linkchildren{
+  text-decoration: none;
+  color: azure;
+
+}
+.linkchildren:hover{
+  color: #bb1414;
+}
+.pricingbody{
+  padding-left: auto !important;
+  padding-right: auto !important;
+  
+}
+.cardx{
+  margin-top: 3rem !important;
+}
+
+.cardpricebodyh1{
+  font-weight: bold;
+  font-size: 3.5rem !important;
+  font-family: "luna";
+  color: aliceblue;
+}
+.cardpricebodyh1:hover{
+   color: brown;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -229,6 +257,9 @@ body {
 }
 ul .listednavitem{
   padding-left: 5rem !important;
+}
+.loginbtn{
+  margin-left: auto;
 }
 
 
@@ -309,6 +340,9 @@ ul .listednavitem{
   ul .listednavitem{
     padding-left: auto !important;
   }
+  .loginbtn{
+    margin-left: auto;
+  }
   
 }
 
@@ -387,6 +421,9 @@ ul .listednavitem{
   ul .listednavitem{
     padding-left: auto !important;
   }
+  .loginbtn{
+    margin-left: 30rem;
+  }
   
 }
 
@@ -404,17 +441,17 @@ ul .listednavitem{
     background-color: rgb(0, 0, 0);
   }
   .captiontitle h1 {
-    margin-top: -20rem !important;
+    margin-top: -24rem !important;
     font-weight: bolder;
     padding-left: 8rem;
     padding-right: 8rem;
     align-items: center;
     text-align: center;
   }
-  .captionbody p{
+  .captiontitle p{
     text-align: center;
     align-items: center;
-    font-weight: 200;
+    font-weight: bold;
   }
   .captionbody {
     width: 20rem !important;
@@ -464,5 +501,18 @@ ul .listednavitem{
   .loginbtn{
     margin-left: 30rem;
   }
+  .pricingbody{
+    padding-left: 3rem !important;
+    padding-right: 3rem!important;
+  }
   
+  .cardpricebodyh1{
+    font-weight: bold;
+    font-size: 3.5rem !important;
+    font-family: "luna";
+    color: aliceblue;
+  }
+  .cardpricebodyh1:hover{
+     color: brown;
+  }
 }

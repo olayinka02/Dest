@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
 
+
  import { Row, Col, Container } from 'react-bootstrap';
- 
+
 
 
 
@@ -50,7 +51,9 @@ class Fivebody extends Component {
 
            <Col md={4} sm={12}>
                <div >
-              <h1 style={{color:'black',fontSize:3.5+'rem',marginTop:1+'rem',fontWeight:'bold',}}>dest</h1>
+               
+                 <h1 style={{color:'black',fontSize:3.5+'rem',marginTop:1+'rem',fontWeight:'bold',}}>dest</h1>
+                 
               <p style={{color:'white',}}>powered by Olayinka @ 2021.</p>
                </div>
                </Col>
